@@ -38,7 +38,8 @@ export default function HomeScreen() {
                 pathname: "pages/[pageNumber]",
                 params: {
                   pageNumber: pageNumber.toString(),
-                  name: `Clicked page number ${pageNumber}`,
+                  name: `Bhusan`,
+                  age: pageNumber,
                 },
               });
             }}

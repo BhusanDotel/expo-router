@@ -18,6 +18,7 @@ const Pages = () => {
       <GoBackButton />
       <Text style={styles.content}>{local.pageNumber}</Text>
       <Text>{local?.name}</Text>
+      <Text>Age : {local?.age}</Text>
     </View>
   );
 };
